@@ -1,0 +1,17 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "myapp",
+  "bundledWebRuntime": false,
+  "webDir": "build",
+  "npmClient": "npm",
+  "cordova": {},
+  "plugins": {
+    "MyCoolPlugin": {
+      "style": "dark",
+      "iconColor": "#FF0000"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}
